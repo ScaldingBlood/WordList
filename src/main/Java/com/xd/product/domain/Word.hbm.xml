@@ -12,10 +12,10 @@
             <column name="SPELLING" length="60" not-null="true" />
         </property>
         <property name="definition" type="string">
-            <column name="DEFINITION" length="100" not-null="true" />
+            <column name="DEFINITION" length="200" not-null="true" />
         </property>
         <property name="sentences" type="string">
-        <column name="SENTENCES" length="150" not-null="true" />
+        <column name="SENTENCES" length="250" not-null="true" />
         </property>
         <property name="date" type="date">
             <column name="DATE" not-null="true"/>
