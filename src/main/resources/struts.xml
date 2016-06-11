@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <!-- 将Action交给spring容器管理 -->
+    <constant name="struts.objectFactory" value="spring" />
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.configuration.xml.reload" value="true" />
+    <!-- 字符集编码 -->
+    <constant name="struts.i18n.encoding" value="utf-8" />
+
+    <include file="com/xd/account/configuration/struts-module.xml"/>
+    <include file="com/xd/product/configuration/struts-module.xml"/>
+</struts>
