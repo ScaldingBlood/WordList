@@ -12,8 +12,12 @@
         <sourceRoots>
           <root url="file://$MODULE_DIR$/src/main/Java" />
           <root url="file://$MODULE_DIR$/src/main/resources" />
+<<<<<<< HEAD
           <root url="file://$MODULE_DIR$/src/main/Java/com/xd/account/configuration" />
           <root url="file://$MODULE_DIR$/src/main/Java/com/xd/product/configuration" />
+=======
+          <root url="file://$MODULE_DIR$/src/test/resources" />
+>>>>>>> 3f0198d42e3a4231f876caf5cc21a10aed4d2873
         </sourceRoots>
       </configuration>
       <facet type="Struts2" name="Struts 2">
@@ -37,7 +41,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">

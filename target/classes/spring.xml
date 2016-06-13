@@ -38,8 +38,12 @@
 
         <property name="mappingLocations">
             <list>
+<<<<<<< HEAD
                 <value>classpath*:User.hbm.xml</value>
                 <value>classpath*:Word.hbm.xml</value>
+=======
+                <value>classpath*:/com/xd/**/*.hbm.xml</value>
+>>>>>>> 3f0198d42e3a4231f876caf5cc21a10aed4d2873
             </list>
         </property>
     </bean>
@@ -48,7 +52,12 @@
             <ref bean="sessionFactory"/>
         </property>
     </bean>
+<<<<<<< HEAD
 
     <import resource="product-spring-module.xml"/>
     <import resource="account-spring-module.xml"/>
+=======
+    <import resource="com/xd/account/configuration/spring-module.xml"/>
+    <import resource="com/xd/product/configuration/spring-module.xml"/>
+>>>>>>> 3f0198d42e3a4231f876caf5cc21a10aed4d2873
 </beans>

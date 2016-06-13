@@ -1,12 +1,14 @@
 package com.xd.product.domain;
 
-import java.util.Date;
+import com.xd.common.BaseBean;
+
+import java.sql.Date;
 import java.util.UUID;
 
 /**
  * Created by oasis on 2016/6/11.
  */
-public class Word {
+public class Word extends BaseBean{
     UUID id;
     String spelling;
     String definition;
