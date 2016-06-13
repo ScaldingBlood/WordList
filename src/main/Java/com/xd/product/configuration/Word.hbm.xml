@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.xd.product.domain.Word" table="WORDS" schema="TRAIN">
+        <id name="id" type="string">
+            <column name="ID" length="36" />
+            <generator class="assigned" />
+        </id>
+        <property name="spelling" type="string">
+            <column name="SPELLING" length="60" not-null="true" />
+        </property>
+        <property name="definition" type="string">
+            <column name="DEFINITION" length="200" not-null="true" />
+        </property>
+        <property name="sentences" type="string">
+        <column name="SENTENCES" length="250" not-null="true" />
+        </property>
+        <property name="date" type="date">
+            <column name="DATE" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>
