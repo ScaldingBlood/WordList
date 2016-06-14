@@ -1,11 +1,147 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h2>Hello World2!</h2>
-<form action="/account/login.action" method="post">
-    Username: <input type="text" name="username" />
-    Password: <input type="text" name="password" />
-    <input type="submit" value="Submit" />
-</form>
-</body>
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="styles/index.css" />
+	</head>
+
+	<body>
+		<!-- header 部分开始 -->
+		<div class="header ">
+			<div class="container head">
+
+				<div class="col-md-7"></div>
+
+				<div class="col-md-3 form-group">
+					<input type="text" class="form-control-sm form-control myInput" id="btnSearch" autofocus placeholder="Search On Web" />
+				</div>
+				<div class="col-md-1">
+					<button class="btn btn-success btn-sm" id="signIn"> Sign in</button>
+				</div>
+				<div class="col-md-1">
+					<button class="btn btn-default btn-sm " id="signUp"> Sign up</button>
+				</div>
+			</div>
+		</div>
+		<!-- header 部分结束 -->
+
+		<!--  登录对话框开始  -->
+		<div id="loginDialog">
+			<div class="login_head">
+				<span class="h2">  &nbsp;&nbsp;&nbsp;Sign  In</span>
+			</div>
+
+			<form>
+				<div class=" row form-group" style="width: 100%;">
+
+					<div class="col-md-3">
+						<label for="username" class="h6">UserName:</label>
+					</div>
+
+					<div class="col-md-8">
+						<input type="text" class="form-control input-group-lg" id="username" placeholder="UserName">
+					</div>
+
+				</div>
+
+				<div class=" row form-group" style="width: 100%;">
+
+					<div class="col-md-3">
+						<label for="password" class="h6">PassWord:</label>
+					</div>
+
+					<div class="col-md-8">
+						<input type="password" class="form-control input-group-lg" id="password" placeholder="Password">
+					</div>
+
+				</div>
+
+				<div class="checkbox">
+					<label>
+                <input type="checkbox" id="remember"/><span>Remember me</span>
+            </label>
+				</div>
+				<a href="#" class="a">忘记密码?</a>
+				<a href="#" class="a">现在注册?</a>
+				<a href="" id="closeDig" class="a">[关闭]</a>
+				<button type="submit" class="btn btn-success btn-group-sm" id="btnSignup">Sign up >></button>
+				<div class="clear"></div>
+			</form>
+
+		</div>
+		<!--  登录对话框结束  -->
+		<!--设置模态对话框时使用-->
+		<div id="modal"></div>
+
+		<!--内容部分开始-->
+		<div class="relativeDiv container-fluid content">
+			<!--在线翻译开始-->
+			<div class="content1">
+				<div class="translate">
+					<span>English</span>
+					<!--<div class="res english">
+					</div>-->
+					<textarea name="" rows="4" class="res english form-control">
+						
+					</textarea>
+					<button class=" btn btn-success btn-sm">Translate</button>
+					<div class="clear"></div>
+					<span>Chinese</span>
+					<textarea rows="6" class="res chinese form-control">
+					</textarea>
+					<button class="btn btn-success btn-sm" disabled="disabled">Collect</button>
+				</div>
+
+			</div>
+			<!--在线翻译开始-->
+
+			<!--句子推荐对话框开始-->
+			<div class="content2">
+
+				<div id="divAdvice">
+					<div id="en">
+						A man of words and not of deeds is like a garden full of weeds.
+					</div>
+					<div id="zh">
+						一个只说不做的人就像一个长满野草的花园。
+					</div>
+				</div>
+
+			</div>
+			<!--句子推荐对话框结束-->
+
+			<!--用户模块开始-->
+			<div class="content3">
+
+				<div class="divUser">
+					<div class="input-group">
+						<input type="text" class="form-control" aria-label="Text input with segmented button dropdown">
+						<div class="input-group-btn">
+							<button type="button" class="btn btn-default">Search</button>
+							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="caret"></span>
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+							<ul class="dropdown-menu dropdown-menu-right">
+								<li><a href="#">按字典序列排序</a></li>
+								<li><a href="#">按插入时间排序</a></li>
+
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<!--用户模块结束-->
+		</div>
+		<!--内容部分结束-->
+	</body>
+	<script src="lib/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
+	<script src="scripts/index.js"></script>
+
 </html>
