@@ -12,4 +12,5 @@ public interface productService {
     void add(Word a);
     List find(String sql);
     List FindByParameter(UUID id, int parameter);
+    void update(Word a);
 }

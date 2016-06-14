@@ -7,10 +7,10 @@
 <struts>
     <package name="product" namespace="/words" extends="json-default">
         <action name="manipulate" class="productAction" method="store">
-            <result name = "success" ></result>
         </action>
         <action name="manipulate" class="productAction" method="search">
-            <result type="json"></result>
+        </action>
+        <action name="manipulate" class="productAction" method="update">
         </action>
     </package>
 </struts>
