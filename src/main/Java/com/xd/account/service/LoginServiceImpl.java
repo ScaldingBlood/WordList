@@ -15,7 +15,9 @@ public class LoginServiceImpl extends BaseService implements LoginService {
     public User check(String name, String password) {
         String hql = "from com.xd.account.domain.User where username='" + name + "' and password='" + password + "'";
         List list = getHibernateDAO().find(hql);
-        User user = (User)list.get(0);
-        return user;
+        if(list != null && list.size() > 0)
+            return (User)list.get(0);
+        else
+            return null;
     }
 }

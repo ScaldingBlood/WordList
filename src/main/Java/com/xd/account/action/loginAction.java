@@ -43,7 +43,14 @@ public class LoginAction extends BaseAction {
             return ERROR;
         }
         else {
+            request.getSession().setAttribute("id", user.getId());
             return SUCCESS;
         }
     }
+    public String logout() {
+        HttpServletRequest request = ServletActionContext.getRequest();
+        request.getSession().removeAttribute("id");
+        return SUCCESS;
+    }
+
 }

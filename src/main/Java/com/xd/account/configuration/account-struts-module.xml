@@ -11,7 +11,7 @@
         </action>
         <action name="login" class="loginAction" method="login">
             <result name="error">/index.html</result>
-            <result name="success">/index.html</result>
+            <result name="success">/words.html</result>
         </action>
         <action name="logout" class="loginAction" method="logout">
             <result name="success">/index.html</result>

@@ -5,9 +5,12 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-    <package name="product" namespace="words" extends="struts-default">
+    <package name="product" namespace="/words" extends="struts-default">
         <action name="manipulate" class="productAction" method="store">
             <result name = "success" ></result>
+        </action>
+        <action name="manipulate" class="productAction" method="search">
+            <result name="success"></result>
         </action>
     </package>
 </struts>

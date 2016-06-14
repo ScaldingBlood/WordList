@@ -43,7 +43,7 @@ public class productAction extends BaseAction{
         data.setSentences(sentences);
         data.setDate(date);
     }
-    public void store()
+    public String store()
     {
         HttpServletRequest request = ServletActionContext.getRequest();
         UUID id = UUID.fromString(request.getParameter("id"));
@@ -54,8 +54,9 @@ public class productAction extends BaseAction{
         Date date = new Date(utildate.getTime());
         setWord(id, spelling, definition, sentences, date);
         this.getService().add(data);
+        return SUCCESS;
     }
-    public void search()
+    public String search()
     {
         HttpServletRequest request = ServletActionContext.getRequest();
         int parameter = Integer.parseInt(request.getParameter("parameter"));
@@ -88,12 +89,13 @@ public class productAction extends BaseAction{
             out.println(result.toJSONString());
             out.flush();
             out.close();
+            return SUCCESS;
 
         }catch (IOException e)
         {
             e.printStackTrace();
+            return ERROR;
         }
-
     }
 
 }
