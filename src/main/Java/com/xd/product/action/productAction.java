@@ -17,6 +17,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Date;
+import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
@@ -27,7 +28,6 @@ import java.util.UUID;
 public class productAction extends BaseAction{
 
     private productService Service;
-    private Word data;
     public productService getService() {
         return Service;
     }
@@ -35,9 +35,9 @@ public class productAction extends BaseAction{
     public void setService(productService service) {
         Service = service;
     }
-    public void setWord( UUID id,String spelling,String definition,String sentences,Date date)
+    public void setWord(Word data, UUID id,String spelling,String definition,String sentences,Date date)
     {
-        data.setId(id);
+        data.setId(id.toString());
         data.setSpelling(spelling);
         data.setDefinition(definition);
         data.setSentences(sentences);
@@ -47,13 +47,14 @@ public class productAction extends BaseAction{
     {
         HttpServletRequest request = ServletActionContext.getRequest();
         HttpSession session = request.getSession();
-        UUID id = (UUID)session.getAttribute("id");
+        UUID id = UUID.fromString((String) session.getAttribute("id"));
         String spelling = request.getParameter("spelling");
         String definition = request.getParameter("definition");
         String sentences = request.getParameter("sentences");
         java.util.Date utildate = new java.util.Date();
         Date date = new Date(utildate.getTime());
-        setWord(id, spelling, definition, sentences, date);
+        Word data = new Word();
+        setWord(data,id, spelling, definition, sentences, date);
         this.getService().add(data);
     }
     public void search()
@@ -62,7 +63,7 @@ public class productAction extends BaseAction{
         int parameter = Integer.parseInt(request.getParameter("parameter"));
         //String spelling = request.getParameter("spelling");
         HttpSession session = request.getSession();
-        UUID id = (UUID)session.getAttribute("id");
+        UUID id = UUID.fromString((String) session.getAttribute("id"));
         JSONArray result = new JSONArray();
 
         try {
@@ -75,7 +76,7 @@ public class productAction extends BaseAction{
                     p.put("spelling",(String)obj[0]);
                     p.put("definition",(String)obj[1]);
                     p.put("sentences",(String)obj[2]);
-                    p.put("date",((Date)obj[3]).getTime());//may provoke exception
+                    p.put("date",new Date(((Timestamp)obj[3]).getTime()));//may provoke exception
                     result.add(p);
                 }
             }
@@ -100,13 +101,14 @@ public class productAction extends BaseAction{
     {
         HttpServletRequest request = ServletActionContext.getRequest();
         HttpSession session = request.getSession();
-        UUID id = (UUID)session.getAttribute("id");
+        UUID id = UUID.fromString((String) session.getAttribute("id"));
         String spelling = request.getParameter("spelling");
         String definition = request.getParameter("definition");
         String sentences = request.getParameter("sentences");
         java.util.Date utildate = new java.util.Date();
         Date date = new Date(utildate.getTime());
-        setWord(id, spelling, definition, sentences, date);
+        Word data = new Word();
+        setWord(data,id, spelling, definition, sentences, date);
         this.getService().update(data);
     }
 }
