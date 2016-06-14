@@ -3,7 +3,7 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.xd.product.domain.Word" table="WORDS" schema="TRAIN">
+    <class name="com.xd.product.domain.Word" table="WORD" schema="WORDLIST">
         <id name="id" type="string">
             <column name="ID" length="36" />
             <generator class="assigned" />
