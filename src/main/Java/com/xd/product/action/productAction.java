@@ -43,10 +43,11 @@ public class productAction extends BaseAction{
         data.setSentences(sentences);
         data.setDate(date);
     }
-    public String store()
+    public void store()
     {
         HttpServletRequest request = ServletActionContext.getRequest();
-        UUID id = UUID.fromString(request.getParameter("id"));
+        HttpSession session = request.getSession();
+        UUID id = (UUID)session.getAttribute("id");
         String spelling = request.getParameter("spelling");
         String definition = request.getParameter("definition");
         String sentences = request.getParameter("sentences");
@@ -54,9 +55,8 @@ public class productAction extends BaseAction{
         Date date = new Date(utildate.getTime());
         setWord(id, spelling, definition, sentences, date);
         this.getService().add(data);
-        return SUCCESS;
     }
-    public String search()
+    public void search()
     {
         HttpServletRequest request = ServletActionContext.getRequest();
         int parameter = Integer.parseInt(request.getParameter("parameter"));
@@ -83,19 +83,30 @@ public class productAction extends BaseAction{
             e.printStackTrace();
         }
         HttpServletResponse response = ServletActionContext.getResponse();
-        PrintWriter out;
-        try {
-            out = response.getWriter();
-            out.println(result.toJSONString());
-            out.flush();
-            out.close();
-            return SUCCESS;
-
+        String JSONstr = result.toJSONString();
+        response.setCharacterEncoding("UTF-8");
+        response.setContentType("application/json; charset=utf-8");
+        try
+        {
+            response.getWriter().println(JSONstr);
+            response.getWriter().flush();
+            response.getWriter().close();
         }catch (IOException e)
         {
             e.printStackTrace();
-            return ERROR;
         }
     }
-
+    public void update()
+    {
+        HttpServletRequest request = ServletActionContext.getRequest();
+        HttpSession session = request.getSession();
+        UUID id = (UUID)session.getAttribute("id");
+        String spelling = request.getParameter("spelling");
+        String definition = request.getParameter("definition");
+        String sentences = request.getParameter("sentences");
+        java.util.Date utildate = new java.util.Date();
+        Date date = new Date(utildate.getTime());
+        setWord(id, spelling, definition, sentences, date);
+        this.getService().update(data);
+    }
 }

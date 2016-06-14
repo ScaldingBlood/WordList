@@ -15,6 +15,10 @@ public class productServiceImpl extends BaseService implements productService{
 
         this.getHibernateDAO().save(wd);
     }
+    @Override
+    public void update(Word wd){
+        this.getHibernateDAO().update(wd);
+    }
 
     @Override
     public List find(String sql)

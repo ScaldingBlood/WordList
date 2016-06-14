@@ -3,14 +3,13 @@
 <!DOCTYPE struts PUBLIC
         "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
         "http://struts.apache.org/dtds/struts-2.3.dtd">
-
 <struts>
-    <package name="product" namespace="/words" extends="struts-default">
+    <package name="product" namespace="/words" extends="json-default">
         <action name="manipulate" class="productAction" method="store">
-            <result name = "success" ></result>
         </action>
         <action name="manipulate" class="productAction" method="search">
-            <result name="success"></result>
+        </action>
+        <action name="manipulate" class="productAction" method="update">
         </action>
     </package>
 </struts>
