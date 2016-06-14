@@ -57,7 +57,7 @@ public class HibernateDAO extends HibernateDaoSupport {
      * @param hql
      * @return
      */
-    public List<Object> find(String hql) {
+    public List find(String hql) {
         return this.getHibernateTemplate().find(hql);
     }
 
