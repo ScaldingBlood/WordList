@@ -2,5 +2,15 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="productService" class="com.xd.product.service.productServiceImpl">
+        <property name="hibernateDAO">
+            <ref bean="hibernateDAO"/>
+        </property>
+    </bean>
+    <bean id="productAction" class="com.xd.product.action.productAction">
+        <property name="service">
+            <ref bean = "productService"/>
+        </property>
+    </bean>
 
 </beans>

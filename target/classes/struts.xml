@@ -10,15 +10,8 @@
     <constant name="struts.devMode" value="true" />
     <constant name="struts.configuration.xml.reload" value="true" />
     <!-- 字符集编码 -->
-<<<<<<< HEAD
     <constant name="struts.i18n.encoding" value="UTF-8" />
 
     <include file="account-struts-module.xml"/>
     <include file="product-struts-module.xml"/>
-=======
-    <constant name="struts.i18n.encoding" value="utf-8" />
-
-    <include file="com/xd/account/configuration/struts-module.xml"/>
-    <include file="com/xd/product/configuration/struts-module.xml"/>
->>>>>>> 3f0198d42e3a4231f876caf5cc21a10aed4d2873
 </struts>
