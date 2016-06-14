@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>注册用户</title>
+
+		<link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="/styles/register.css" />
+	</head>
+
+	<body>
+		<!-- header 部分开始 -->
+		<div class="header ">
+			<div class="container head">
+
+				<div class="col-md-7"></div>
+
+				<div class="col-md-3 form-group">
+					<input type="text" class="form-control-sm form-control myInput" id="btnSearch" autofocus placeholder="Search On Web" />
+				</div>
+				<div class="col-md-1">
+					<button class="btn btn-success btn-sm" id="signIn"> Sign in</button>
+				</div>
+				<div class="col-md-1">
+					<button class="btn btn-default btn-sm " id="signUp"> Sign up</button>
+				</div>
+			</div>
+		</div>
+		<!-- header 部分结束 -->
+
+		<!--  登录对话框开始  -->
+		<div id="loginDialog">
+			<div class="login_head">
+				<span class="h2">  &nbsp;&nbsp;&nbsp;Sign  In</span>
+			</div>
+
+
+				<div class=" row form-group" style="width: 100%;">
+
+					<div class="col-md-3">
+						<label for="username" class="h6">UserName:</label>
+					</div>
+
+					<div class="col-md-8">
+						<input type="text" class="form-control input-group-lg" id="username" name="username" placeholder="UserName">
+					</div>
+
+				</div>
+
+				<div class=" row form-group" style="width: 100%;">
+
+					<div class="col-md-3">
+						<label for="password" class="h6">PassWord:</label>
+					</div>
+
+					<div class="col-md-8">
+						<input type="password" class="form-control input-group-lg" id="password" name="password" placeholder="Password">
+					</div>
+
+				</div>
+
+				<div class="checkbox">
+					<label>
+                <input type="checkbox" id="remember"/><span>Remember me</span>
+            </label>
+				</div>
+				<a href="#" class="a">忘记密码?</a>
+				<a href="#" class="a">现在注册?</a>
+				<a href="" id="closeDig" class="a">[关闭]</a>
+				<button type="submit" class="btn btn-success btn-group-sm" id="btnSignup">Sign up >></button>
+				<div class="clear"></div>
+
+		</div>
+		<!--  登录对话框结束  -->
+		<!--设置模态对话框时使用-->
+		<div id="modal"></div>
+
+		<!--注册模块开始-->
+		<form action="../account/register.action" method="post">
+		<div class="divegister">
+			<span class="h3">注册一个新用户</span>
+			<div class=" row form-group" style="width: 100%;">
+
+				<div class="col-md-2">
+					<label for="username" class="h6">UserName:</label>
+				</div>
+
+				<div class="col-md-10">
+					<input type="text" class="form-control input-group-lg" id="r_remember" name="username" placeholder="UserName">
+				</div>
+
+			</div>
+
+			<div class=" row form-group" style="width: 100%;">
+
+				<div class="col-md-2">
+					<label for="password" class="h6">PassWord:</label>
+				</div>
+
+				<div class="col-md-10">
+					<input type="password" class="form-control input-group-lg" id="r_password" name="password" placeholder="Password">
+				</div>
+
+			</div>
+			<div class=" row form-group" style="width: 100%;">
+
+				<div class="col-md-2">
+					<label for="password" class="h6">PassWord Again:</label>
+				</div>
+
+				<div class="col-md-10">
+					<input type="password" class="form-control input-group-lg" id="r_password" placeholder="Password Again">
+				</div>
+
+			</div>
+			
+			<button class="btn btn-success btn-sm btnRegister" >注册</button>
+			<span class="back">
+				<a href="index.html">回到首页</a>
+			</span>
+		</div>
+		</form>
+		<!--注册模块结束-->
+
+	</body>
+	<script src="/lib/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="/lib/bootstrap/js/bootstrap.js"></script>
+	<script src="/scripts/register.js"></script>
+
+</html>

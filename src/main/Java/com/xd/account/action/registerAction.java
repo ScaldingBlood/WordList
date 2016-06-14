@@ -37,7 +37,9 @@ public class RegisterAction {
         HttpServletRequest request = ServletActionContext.getRequest();
         String name = request.getParameter("username");
         String password = request.getParameter("password");
-        user = new User(UUID.randomUUID().toString(), name, password);
+        String id = UUID.randomUUID().toString();
+        System.out.print(id);
+        user = new User(id, name, password);
         if(registerService.addUser(user)) {
             request.getSession().setAttribute("id", user.getId());
             return SUCCESS;

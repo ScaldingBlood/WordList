@@ -30,12 +30,13 @@ public class productServiceImpl extends BaseService implements productService{
     {
             if(parameter ==0)
             {
-                String sql1 = "SELECT SPELLING,DEFINITION,SENTENCES,DATE FROM WORDLIST.WORD WHERE ID = "+id+" ORDER BY DATE DESC LIMIT 0,10";
+                String sql1 = "SELECT SPELLING,DEFINITION,SENTENCES,DATE FROM WORDLIST.WORD WHERE ID = '"+id.toString()+"' ORDER BY DATE DESC LIMIT 0,10";
+//                System.out.println(sql1);
                 return find(sql1);
             }
             else if(parameter == 1)
             {
-                String sql2 = "SELECT SPELLING,DEFINITION,SENTENCES,DATE FROM WORDLIST.WORDS WHERE ID = "+id+" ORDER BY SPELLING LIMIT 0,10";
+                String sql2 = "SELECT SPELLING,DEFINITION,SENTENCES,DATE FROM WORDLIST.WORDS WHERE ID = '"+id.toString()+"' ORDER BY SPELLING LIMIT 0,10";
                 return find(sql2);
             }
             else
