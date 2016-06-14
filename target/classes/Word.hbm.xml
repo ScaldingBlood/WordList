@@ -4,13 +4,10 @@
 
 <hibernate-mapping>
     <class name="com.xd.product.domain.Word" table="WORD" schema="WORDLIST">
-        <id name="id" type="string">
-            <column name="ID" length="36" />
-            <generator class="assigned" />
-        </id>
-        <property name="spelling" type="string">
-            <column name="SPELLING" length="60" not-null="true" />
-        </property>
+        <composite-id>
+            <key-property name="id" column="ID" type="string"></key-property>
+            <key-property name="spelling" column="SPELLING" type="string"></key-property>
+        </composite-id>
         <property name="definition" type="string">
             <column name="DEFINITION" length="200" not-null="true" />
         </property>

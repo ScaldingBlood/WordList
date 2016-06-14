@@ -89,8 +89,7 @@ public class productAction extends BaseAction{
         response.setContentType("application/json; charset=utf-8");
         try
         {
-            response.getWriter().println(JSONstr);
-            response.getWriter().flush();
+            response.getWriter().append(JSONstr);
             response.getWriter().close();
         }catch (IOException e)
         {

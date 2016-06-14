@@ -6,7 +6,7 @@
         <class name="com.xd.account.domain.User" table="ACCOUNT" schema="WORDLIST">
         <id name="id" type="string">
             <column name="ID" length="36" />
-            <generator class="uuid" />
+            <generator class="assigned" />
         </id>
         <property name="name" type="string">
             <column name="USERNAME" length="40" not-null="true" />

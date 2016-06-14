@@ -1,7 +1,4 @@
 (function() {
-    function logout() {
-        $.get("/account/logout");
-    }
     var className;
     var divs;
     $(function() {
@@ -29,22 +26,7 @@
             }
 
         });
-
-        var flag = true;
-        $("#signUp").click(function() {
-            if (flag) {
-                flag = false;
-                className.push(className.shift());
-
-                for (var i = 0; i < divs.length; i++) {
-                    divs[i].className = className[i];
-                }
-
-                setTimeout(function() {
-                    flag = true;
-                }, 500);
-            }
-        });
+        
 
     })
     var translate = function() {
