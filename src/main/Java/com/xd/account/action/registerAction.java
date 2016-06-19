@@ -4,7 +4,9 @@ import com.xd.account.domain.User;
 import com.xd.account.service.RegisterService;
 import org.apache.struts2.ServletActionContext;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.UUID;
 
 import static com.opensymphony.xwork2.Action.ERROR;
@@ -33,8 +35,9 @@ public class RegisterAction {
         this.registerService = registerService;
     }
 
-    public String register() {
+    public void register() {
         HttpServletRequest request = ServletActionContext.getRequest();
+        HttpServletResponse response = ServletActionContext.getResponse();
         String name = request.getParameter("username");
         String password = request.getParameter("password");
         String id = UUID.randomUUID().toString();
@@ -42,10 +45,10 @@ public class RegisterAction {
         user = new User(id, name, password);
         if(registerService.addUser(user)) {
             request.getSession().setAttribute("id", user.getId());
-            return SUCCESS;
+            response.addCookie(new Cookie("result", "true"));
         }
         else {
-            return ERROR;
+            response.addCookie(new Cookie("result", "true"));
         }
     }
 }

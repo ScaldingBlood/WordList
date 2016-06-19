@@ -6,7 +6,9 @@ import com.xd.account.service.LoginService;
 import com.xd.common.BaseAction;
 import org.apache.struts2.ServletActionContext;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
 import static java.security.AccessController.getContext;
@@ -34,23 +36,23 @@ public class LoginAction extends BaseAction {
         this.loginService = loginService;
     }
 
-    public String login() {
+    public void login() {
         HttpServletRequest request = ServletActionContext.getRequest();
+        HttpServletResponse response = ServletActionContext.getResponse();
         String name = request.getParameter("username");
         String password = request.getParameter("password");
         User user = loginService.check(name, password);
         if(user == null) {
-            return ERROR;
+            response.addCookie(new Cookie("result","true"));
         }
         else {
+            response.addCookie(new Cookie("result","false"));
             request.getSession().setAttribute("id", user.getId());
-            return SUCCESS;
         }
     }
-    public String logout() {
+    public void logout() {
         HttpServletRequest request = ServletActionContext.getRequest();
         request.getSession().removeAttribute("id");
-        return SUCCESS;
     }
 
 }
