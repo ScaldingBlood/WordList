@@ -47,9 +47,9 @@
 				"remember": remeber
 			};
 
-			$.post(" ", json, function(data) {
+			$.post("/account/login.action", json, function(data) {
 				data = $.parseJSON(data);
-				if (data.uid) {
+				if (data.name) {
 					$('.welcome>span').html("hello:000");
 					$('.arrow').fadeIn(200);
 					$('.content1').css('opacity', "0.5");
@@ -64,18 +64,16 @@
 		// ajax Search
 		
 		$('#btnSearch').click(function(){
-			var content = $('#searchContent').val();
+			var spelling = $('#searchContent').val();
 			if(!content){
 				return;
 			}
-			$.getJSON("",{"content"},function(e){
-				$.each(e, function(v,i) {
+			$.getJSON("",{"content":spelling},function(e){
 					var li = $("<li>");
 					li.className = "list-group-item";
 					$('span').innerHTML(e.word).appendTo(li);
 					$('span').innerHTML(e.translate).appendTo(li);
 					li.appendTo($('.searchRes>ul'));
-				});
 			});
 			
 		});
