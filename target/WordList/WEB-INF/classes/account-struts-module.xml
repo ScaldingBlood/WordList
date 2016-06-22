@@ -6,12 +6,8 @@
 <struts>
     <package name="account" namespace="/account" extends="struts-default">
         <action name="register" class="registerAction" method="register">
-            <result name="success">/index.html</result>
-            <result name="error">/index.html</result>
         </action>
         <action name="login" class="loginAction" method="login">
-            <result name="error">/index.html</result>
-            <result name="success">/words.html</result>
         </action>
         <action name="logout" class="loginAction" method="logout">
             <result name="success">/index.html</result>
