@@ -7,13 +7,8 @@
 		divs = $(".content>div");
 
 		var content = $(".content");
-		content.hover(() => {
 
-		}).blur(() => {
-
-		});
-		turnTo(3);
-		//		turnTo(1);
+		// turnTo(3);
 		var signIn = $("#signIn");
 
 		// 登录
@@ -49,6 +44,10 @@
 
 			$.post("/account/login.action", json, function(data) {
 				data = $.parseJSON(data);
+				if(!data){
+					$('.status').html("用户名或密码错误");
+					return false;
+				}
 				if (data.name) {
 					$('.welcome>span').html("hello:000");
 					$('.arrow').fadeIn(200);
@@ -59,10 +58,12 @@
 				}
 			});
 
+			return false;
+
 		});
 		
 		// ajax Search
-		
+
 		$('#btnSearch').click(function(){
 			var spelling = $('#searchContent').val();
 			if(!content){
@@ -88,16 +89,8 @@
 		$('#sortTime').click(function(){
 			pageLoadByTime();
 		});
-		// enter 查询
-		$("#btnSearch").keydown(function(e) {
-			if (e.keyCode == 13) {
-				// �˴�д������������
-				translate();
-			}
 
-		});
 
-		
 		//
 		var flag = true;
 
@@ -118,7 +111,7 @@
 				$('.detail_head>span').html(e.word);
 				$('.detail_tr>span').html(e.word+"的翻译");
 				$('.detail_tr>input').val(e.translate);
-				$('detail_ex>span').html(e.word+"的例句");
+				// $('detail_ex>span').html(e.word+"的例句");
 				$('.detail_ex>textarea').html(e.example);
 				
 			});
@@ -127,7 +120,7 @@
 		
 		// 收藏和修改
 		$('#btnCollect').click(function(){
-			var 
+			// var
 			
 		});
 		
@@ -181,28 +174,28 @@
 		}
 	};
 	
-	var pageLoadByAsc = function(index){
-		$.ajax("",{"index":index,"sort:asc"},function(e){
-			$.each(e, function(v,i) {
-					var li = $("<li>");
-					li.className = "list-group-item";
-					$('span').innerHTML(e.word).appendTo(li);
-					$('span').innerHTML(e.translate).appendTo(li);
-					li.appendTo($('.searchRes>ul'));
-				});
-		});
-	};
-	var pageLoadByTime = function(index){
-		$.ajax("",{"index":index,"sort":time},function(e){
-			$.each(e, function(v,i) {
-					var li = $("<li>");
-					li.className = "list-group-item";
-					$('span').innerHTML(e.word).appendTo(li);
-					$('span').innerHTML(e.translate).appendTo(li);
-					li.appendTo($('.searchRes>ul'));
-				});
-		});
-	};
+	// var pageLoadByAsc = function(index){
+	// 	$.ajax("",{"index":index,"sort:asc"},function(e){
+	// 		$.each(e, function(v,i) {
+	// 				var li = $("<li>");
+	// 				li.className = "list-group-item";
+	// 				$('span').innerHTML(e.word).appendTo(li);
+	// 				$('span').innerHTML(e.translate).appendTo(li);
+	// 				li.appendTo($('.searchRes>ul'));
+	// 			});
+	// 	});
+	// };
+	// var pageLoadByTime = function(index){
+	// 	$.ajax("",{"index":index,"sort":time},function(e){
+	// 		$.each(e, function(v,i) {
+	// 				var li = $("<li>");
+	// 				li.className = "list-group-item";
+	// 				$('span').innerHTML(e.word).appendTo(li);
+	// 				$('span').innerHTML(e.translate).appendTo(li);
+	// 				li.appendTo($('.searchRes>ul'));
+	// 			});
+	// 	});
+	// };
 	
 
 })();

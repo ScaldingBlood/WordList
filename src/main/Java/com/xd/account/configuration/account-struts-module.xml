@@ -10,6 +10,7 @@
         <action name="login" class="loginAction" method="login">
         </action>
         <action name="logout" class="loginAction" method="logout">
+            <result name="success">/index.html</result>
         </action>
     </package>
 </struts>
