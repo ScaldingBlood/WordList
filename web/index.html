@@ -3,9 +3,9 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<title>Document</title>
-		<link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.css" />
-		<link rel="stylesheet" href="/styles/index.css" />
+		<title>WordList</title>
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="styles/index.css" />
 	</head>
 
 	<body>
@@ -15,14 +15,20 @@
 
 				<div class="col-md-7"></div>
 
-				<div class="col-md-3 form-group">
+				<!--<div class="col-md-3 form-group">
 					<input type="text" class="form-control-sm form-control myInput" id="btnSearch" autofocus placeholder="Search On Web" />
-				</div>
+				</div>-->
 				<div class="col-md-1">
 					<button class="btn btn-success btn-sm" id="signIn"> Sign in</button>
 				</div>
 				<div class="col-md-1">
-					<button class="btn btn-default btn-sm " id="signUp"> Sign up</button>
+					<button class="btn btn-default btn-sm " id="signUp"> Register</button>
+				</div>
+				<div class="col-lg-1"></div>
+				<div class="col-md-2 welcome">
+					<span class="h4">
+						hello
+					</span>
 				</div>
 			</div>
 		</div>
@@ -34,7 +40,7 @@
 				<span class="h2">  &nbsp;&nbsp;&nbsp;Sign  In</span>
 			</div>
 
-			<form action="../account/login.action" method="post">
+			<form>
 				<div class=" row form-group" style="width: 100%;">
 
 					<div class="col-md-3">
@@ -42,7 +48,7 @@
 					</div>
 
 					<div class="col-md-8">
-						<input type="text" class="form-control input-group-lg" id="username" name="username" placeholder="UserName">
+						<input type="text" class="form-control input-group-lg" id="username" placeholder="UserName">
 					</div>
 
 				</div>
@@ -54,7 +60,7 @@
 					</div>
 
 					<div class="col-md-8">
-						<input type="password" class="form-control input-group-lg" id="password" name="password" placeholder="Password">
+						<input type="password" class="form-control input-group-lg" id="password" placeholder="Password">
 					</div>
 
 				</div>
@@ -62,12 +68,13 @@
 				<div class="checkbox">
 					<label>
                 <input type="checkbox" id="remember"/><span>Remember me</span>
+                <span style="margin-left: 20px;color: #D2322D;" class="status"></span>
             </label>
 				</div>
 				<a href="#" class="a">忘记密码?</a>
-				<a href="/register.html" class="a">现在注册?</a>
+				<a href="register.html" class="a">现在注册?</a>
 				<a href="" id="closeDig" class="a">[关闭]</a>
-				<button type="submit" class="btn btn-success btn-group-sm" id="btnSignup">Sign up >></button>
+				<button class="btn btn-success btn-group-sm" id="btnSignin">Sign In >> </button>
 				<div class="clear"></div>
 			</form>
 
@@ -80,19 +87,20 @@
 		<div class="relativeDiv container-fluid content">
 			<!--在线翻译开始-->
 			<div class="content1">
-				<div class="translate">
-					<span>English</span>
-					<!--<div class="res english">
-					</div>-->
-					<textarea name="" rows="4" class="res english form-control">
-						
-					</textarea>
-					<button class=" btn btn-success btn-sm">Translate</button>
-					<div class="clear"></div>
-					<span>Chinese</span>
-					<textarea rows="6" class="res chinese form-control">
-					</textarea>
-					<button class="btn btn-success btn-sm" disabled="disabled">Collect</button>
+				<div class="detail">
+					<div class="detail_head">
+						<span class="en">gradual</span>
+					</div>
+					<div class="detail_tr">
+						<span>gradual&nbsp;的翻译</span>
+						<input type="text" value="逐渐" autofocus/>
+					</div>
+					<div class="detail_ex">
+						<span>gradual&nbsp;的例句</span>
+						<textarea></textarea>
+					</div>
+					<button id="btnCollect" class="btn btn-success btn-sm"> Collect</button>
+					<button id = "btnModify"class="btn btn-success btn-sm">Modify</button>
 				</div>
 
 			</div>
@@ -116,32 +124,86 @@
 			<!--用户模块开始-->
 			<div class="content3">
 
-				<div class="divUser">
-					<div class="input-group">
-						<input type="text" class="form-control" aria-label="Text input with segmented button dropdown">
-						<div class="input-group-btn">
-							<button type="button" class="btn btn-default">Search</button>
-							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="caret"></span>
-              <span class="sr-only">Toggle Dropdown</span>
-            </button>
-							<ul class="dropdown-menu dropdown-menu-right">
-								<li><a href="#">按字典序列排序</a></li>
-								<li><a href="#">按插入时间排序</a></li>
+				<div class="divUser row">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="input-group input-group-sm">
+								<input type="text" id="searchContent"class="form-control" placeholder="Search for...">
+								<span class="input-group-btn">
+        <button class="btn btn-success" id="btnSearch">Search</button>
+      </span>
+							</div>
 
-							</ul>
+							<!-- /input-group -->
+						</div>
+						<div class="col-md-3">
+							<button class="btn btn-default btn-sm" id="sortAsc" type="button">按字典序列排序</button>
+						</div>
+						<div class="col-md-3">
+							<button class="btn btn-default btn-sm" id="sortTime" type="button">按插入时间排序</button>
 						</div>
 					</div>
 
+					<div id="" class="searchRes active">
+						<ul class="list-group">
+							<li class="list-group-item  ">
+								<span>gradual</span>
+								<span>逐渐</span>
+							</li>
+							<li class="list-group-item  ">
+								<span>gradual</span>
+								<span>逐渐</span>
+							</li>
+							<li class="list-group-item  ">
+								<span>gradual</span>
+								<span>逐渐</span>
+							</li>
+							<li class="list-group-item  ">
+								<span>gradual</span>
+								<span>逐渐</span>
+							</li>
+
+							<li class="list-group-item  ">
+								<span>gradual</span>
+								<span>逐渐</span>
+							</li>
+
+						</ul>
+						<nav class="page">
+							<ul class="pagination">
+								<li>
+									<a href="#" aria-label="Previous">
+										<span aria-hidden="true">&laquo;</span>
+									</a>
+								</li>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li>
+									<a href="#" aria-label="Next">
+										<span aria-hidden="true">&raquo;</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+
+					</div>
 				</div>
 
 			</div>
 			<!--用户模块结束-->
 		</div>
 		<!--内容部分结束-->
+
+		<div class="arrow">
+			<a href="javascript:;" class="prev"></a>
+			<a href="javascript:;" class="next"></a>
+		</div>
 	</body>
-	<script src="/lib/jquery-1.7.1.js"></script>
+	<script src="lib/jquery-1.7.1.js"></script>
 	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
-	<script src="/scripts/index.js"></script>
+	<script src="scripts/index.js"></script>
 
 </html>

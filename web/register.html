@@ -5,8 +5,8 @@
 		<meta charset="UTF-8">
 		<title>注册用户</title>
 
-		<link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.css" />
-		<link rel="stylesheet" href="/styles/register.css" />
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="styles/register.css" />
 	</head>
 
 	<body>
@@ -15,10 +15,10 @@
 			<div class="container head">
 
 				<div class="col-md-7"></div>
-
+<!--
 				<div class="col-md-3 form-group">
 					<input type="text" class="form-control-sm form-control myInput" id="btnSearch" autofocus placeholder="Search On Web" />
-				</div>
+				</div>-->
 				<div class="col-md-1">
 					<button class="btn btn-success btn-sm" id="signIn"> Sign in</button>
 				</div>
@@ -35,7 +35,7 @@
 				<span class="h2">  &nbsp;&nbsp;&nbsp;Sign  In</span>
 			</div>
 
-
+			<form>
 				<div class=" row form-group" style="width: 100%;">
 
 					<div class="col-md-3">
@@ -43,7 +43,7 @@
 					</div>
 
 					<div class="col-md-8">
-						<input type="text" class="form-control input-group-lg" id="username" name="username" placeholder="UserName">
+						<input type="text" class="form-control input-group-lg" id="username" placeholder="UserName">
 					</div>
 
 				</div>
@@ -55,7 +55,7 @@
 					</div>
 
 					<div class="col-md-8">
-						<input type="password" class="form-control input-group-lg" id="password" name="password" placeholder="Password">
+						<input type="password" class="form-control input-group-lg" id="password" placeholder="Password">
 					</div>
 
 				</div>
@@ -63,21 +63,21 @@
 				<div class="checkbox">
 					<label>
                 <input type="checkbox" id="remember"/><span>Remember me</span>
+                <span style="margin-left: 20px;color: #D2322D;" class="status">dsdddd</span>
             </label>
 				</div>
 				<a href="#" class="a">忘记密码?</a>
-				<a href="#" class="a">现在注册?</a>
+				<a href="register.html" class="a">现在注册?</a>
 				<a href="" id="closeDig" class="a">[关闭]</a>
-				<button type="submit" class="btn btn-success btn-group-sm" id="btnSignup">Sign up >></button>
+				<button  class="btn btn-success btn-group-sm" id="btnSignup">Sign in >></button>
 				<div class="clear"></div>
-
+			</form>
 		</div>
 		<!--  登录对话框结束  -->
 		<!--设置模态对话框时使用-->
 		<div id="modal"></div>
 
 		<!--注册模块开始-->
-		<form action="../account/register.action" method="post">
 		<div class="divegister">
 			<span class="h3">注册一个新用户</span>
 			<div class=" row form-group" style="width: 100%;">
@@ -87,7 +87,7 @@
 				</div>
 
 				<div class="col-md-10">
-					<input type="text" class="form-control input-group-lg" id="r_remember" name="username" placeholder="UserName">
+					<input type="text" class="form-control input-group-lg" id="r_remember" placeholder="UserName">
 				</div>
 
 			</div>
@@ -99,7 +99,7 @@
 				</div>
 
 				<div class="col-md-10">
-					<input type="password" class="form-control input-group-lg" id="r_password" name="password" placeholder="Password">
+					<input type="password" class="form-control input-group-lg" id="r_password" placeholder="Password">
 				</div>
 
 			</div>
@@ -120,12 +120,11 @@
 				<a href="index.html">回到首页</a>
 			</span>
 		</div>
-		</form>
 		<!--注册模块结束-->
 
 	</body>
-	<script src="/lib/jquery-1.7.1.js"></script>
-	<script type="text/javascript" src="/lib/bootstrap/js/bootstrap.js"></script>
-	<script src="/scripts/register.js"></script>
+	<script src="lib/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
+	<script src="scripts/register.js"></script>
 
 </html>
