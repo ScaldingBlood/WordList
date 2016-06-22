@@ -78,7 +78,8 @@
 		<div id="modal"></div>
 
 		<!--注册模块开始-->
-		<div class="divegister">
+		<form action="/account/register.action" method="post">
+			<div class="divegister">
 			<span class="h3">注册一个新用户</span>
 			<div class=" row form-group" style="width: 100%;">
 
@@ -115,16 +116,19 @@
 
 			</div>
 			
-			<button class="btn btn-success btn-sm btnRegister" >注册</button>
+			<button type="submit" class="btn btn-success btn-sm btnRegister" >注册</button>
 			<span class="back">
 				<a href="index.html">回到首页</a>
 			</span>
 		</div>
+			
+			
+		</form>
 		<!--注册模块结束-->
 
 	</body>
 	<script src="lib/jquery-1.7.1.js"></script>
 	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
-	<script src="scripts/register.js"></script>
+	<script src="scripts/index.js"></script>
 
 </html>
