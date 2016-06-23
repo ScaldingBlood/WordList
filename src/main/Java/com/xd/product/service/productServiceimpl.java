@@ -26,21 +26,26 @@ public class productServiceImpl extends BaseService implements productService{
         return this.getHibernateDAO().findBySql(sql);
     }
     @Override
-    public List FindByParameter(UUID id, int parameter)
+    public List FindByParameter(UUID id, int parameter,int page)
     {
             if(parameter ==0)
             {
-                String sql1 = "SELECT SPELLING,DEFINITION,SENTENCES,DATE FROM WORDLIST.WORD WHERE ID = '"+id.toString()+"' ORDER BY DATE DESC LIMIT 0,10";
+                String sql1 = "SELECT SPELLING,DEFINITION,SENTENCES,DATE FROM WORDLIST.WORD WHERE ID = '"+id.toString()+"' ORDER BY DATE DESC LIMIT "+page+",10";
 //                System.out.println(sql1);
                 return find(sql1);
             }
             else if(parameter == 1)
             {
-                String sql2 = "SELECT SPELLING,DEFINITION,SENTENCES,DATE FROM WORDLIST.WORDS WHERE ID = '"+id.toString()+"' ORDER BY SPELLING LIMIT 0,10";
+                String sql2 = "SELECT SPELLING,DEFINITION,SENTENCES,DATE FROM WORDLIST.WORDS WHERE ID = '"+id.toString()+"' ORDER BY SPELLING LIMIT "+page+",10";
                 return find(sql2);
             }
             else
                 return null;
+    }
+
+    public int count(String sql)
+    {
+        return this.getHibernateDAO().findCountBySql(sql);
     }
 
 }

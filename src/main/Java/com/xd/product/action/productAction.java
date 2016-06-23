@@ -62,6 +62,7 @@ public class productAction extends BaseAction{
         HttpServletRequest request = ServletActionContext.getRequest();
         int parameter = Integer.parseInt(request.getParameter("parameter"));
         String spelling = request.getParameter("spelling");
+        int page = Integer.parseInt(request.getParameter("totalPage"));
         HttpSession session = request.getSession();
         UUID id = UUID.fromString((String) session.getAttribute("id"));
         JSONArray result = new JSONArray();
@@ -98,7 +99,7 @@ public class productAction extends BaseAction{
         else
         {
             try {
-                List xcz = this.getService().FindByParameter(id,parameter);
+                List xcz = this.getService().FindByParameter(id,parameter,page);
                 if (xcz != null && xcz.size() > 0) {
                     for (int i = 0; i < xcz.size(); i++) {
                         Object[] obj = (Object[]) xcz.get(i);
@@ -143,5 +144,25 @@ public class productAction extends BaseAction{
         setWord(data,id, spelling, definition, sentences, date);
         this.getService().update(data);
     }
-
+    public void pagecount()
+    {
+        HttpServletResponse response = ServletActionContext.getResponse();
+        response.setCharacterEncoding("UTF-8");
+        response.setContentType("application/json; charset=utf-8");
+        HttpServletRequest request = ServletActionContext.getRequest();
+        HttpSession session = request.getSession();
+        UUID id = UUID.fromString((String) session.getAttribute("id"));
+        String sql = "SELECT SPELLING FROM WORDLIST.WORD WHERE ID = '"+id.toString()+"'";
+        int page = this.getService().count(sql);
+        JSONObject a = new JSONObject();
+        a.put("totalPage",page);
+        try
+        {
+            response.getWriter().append(a.toJSONString());
+            response.getWriter().close();
+        }catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+    }
 }

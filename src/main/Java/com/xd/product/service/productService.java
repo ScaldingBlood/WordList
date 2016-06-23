@@ -11,6 +11,7 @@ import java.util.UUID;
 public interface productService {
     void add(Word a);
     List find(String sql);
-    List FindByParameter(UUID id, int parameter);
+    List FindByParameter(UUID id, int parameter,int page);
     void update(Word a);
+    int count(String sql);
 }
