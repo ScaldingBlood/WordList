@@ -8,7 +8,6 @@
 
 			var content = $(".content");
 
-			turnTo(3);
 			var signIn = $("#signIn");
 
 			// 登录
@@ -51,8 +50,10 @@
 					if (data.name) {
 						$('.welcome>span').html("hello:000");
 						$('.arrow').fadeIn(200);
-						$('.content1').css('opacity', "0.5");
-						$('.content3').css('opacity', "0.5");
+						$('.content1').css('opacity', "1");
+						$('.content3').css('opacity', "1");
+                        $('.content2').css('opacity', "1");
+						$('#closeDig').trigger("click");
 					} else {
 						$('.status').html("用户名或密码错误");
 					}
@@ -66,37 +67,45 @@
 
 			$('#btnSearch').click(function() {
 				var spelling = $('#searchContent').val();
-				if (!content) {
+				if (!spelling) {
 					return;
 				}
-				$.getJSON("", {
-					"content": spelling
-				}, function(e) {
-					var li = $("<li>");
-					li.className = "list-group-item";
-					$('span').innerHTML(e.word).appendTo(li);
-					$('span').innerHTML(e.translate).appendTo(li);
-					li.appendTo($('.searchRes>ul'));
-				});
+				search(spelling);
 
-			});
+            });
+
+
 
 			// 排序查找
 
 			$('#sortAsc').click(function() {
 				var totalPage = -1;
 				if (totalPage === -1) {
-					$.getJSON("/words/manipulate4!pagecount", {}, function(e) {
-						totalPage = e.totalPage;
+					$.getJSON("/words/manipulate4", {}, function(e) {
+						totalPage = e.totalPage+0;
+						var page = pageLoad("", totalPage, 1);
+						$(".page").html(page);
+						loadByAsc(1);
 					});
 				}
-				var page = pageLoad("", totalPage, 1);
-				$(".page").html(page);
-				loadByAsc(1);
+
 			});
 
+
+            $('#sortTime').click(function() {
+                var totalPage = -1;
+                if (totalPage === -1) {
+                    $.getJSON("/words/manipulate4", {}, function(e) {
+                        totalPage = e.totalPage+0;
+                        var page = pageLoad("", totalPage, 1);
+                        $(".page").html(page);
+                        loadByTime(1);
+                    });
+                }
+
+            });
 			$('#sortTime').click(function() {
-				pageLoadByTime();
+
 			});
 
 			//
@@ -105,35 +114,35 @@
 			$("#signUp").click(function() {
 				window.location.href = "register.html"
 			});
-			var lis = $(".searchRes>ul>li");
-			// 列表
-			lis.hover(function() {
 
-				$(this).addClass("list-group-item-success").siblings().removeClass("list-group-item-success");
-			}).blur(function() {
-				$(this).removeClass("list-group-item-success");
-			});
-			lis.click(function() {
-				turnTo(1);
-				$.ajax("", {
-					"word": $(this).children("span").get(0).innerHTML
-				}, function(e) {
-					$('.detail_head>span').html(e.word);
-					$('.detail_tr>span').html(e.word + "的翻译");
-					$('.detail_tr>input').val(e.translate);
-					// $('detail_ex>span').html(e.word+"的例句");
-					$('.detail_ex>textarea').html(e.example);
 
-				});
-
-			});
 
 			// 收藏和修改
 			$('#btnCollect').click(function() {
-				// var
+               var spelling =  $('.detail_head>input').val();
+                var definition = $('.detail_tr>input').val();
+               var sentences=  $('.detail_ex>textarea').val();
 
+                $.getJSON("/words/manipulate1",{"spelling":spelling,
+                    "definition":definition,
+                    "sentences":sentences,
+                },function (e) {
+
+                })
 			});
 
+            $('#btnModify').click(function () {
+                var spelling =  $('.detail_head>input').val();
+                var definition = $('.detail_tr>input').val();
+                var sentences=  $('.detail_ex>textarea').val();
+
+                $.getJSON("/words/manipulate3",{"spelling":spelling,
+                    "definition":definition,
+                    "sentences":sentences,
+                },function (e) {
+
+                })
+            })
 			// 左右点击事件
 			var flag = true;
 			$('.arrow>.prev').click(function() {
@@ -165,6 +174,45 @@
 					}, 500);
 				}
 			});
+
+			$('#btnInsert').click(function () {
+				turnTo(1);
+				$('.detail_head').val("");
+				$('.detail_tr>span').html("翻译");
+				$('.detail_tr>input').val("");
+				$('.detail_ex>span').html("例句");
+				$('.detail_ex>textarea').val("");
+
+				
+			});
+            var lis = $(".searchRes>ul li");
+            // 列表
+
+            for(var k  = 0;k<lis.length;k++){
+
+                lis[k].hover = function () {
+                    $(lis[k]).addClass("list-group-item-success").siblings().removeClass("list-group-item-success");
+                }
+                lis[k].blur = function () {
+                    $(lis[k]).removeClass("list-group-item-success");
+                }
+                lis[k].click = function () {
+                    // $(lis[k]).addClass("list-group-item-success").siblings().removeClass("list-group-item-success");
+                    search($(lis[k]).children('span').get(0).innerHTML);
+                }
+            }
+            // lis.on('hover',function() {
+            //
+            //     $(this).addClass("list-group-item-success").siblings().removeClass("list-group-item-success");
+            // });
+            // lis.on('blur',function() {
+            //     $(this).removeClass("list-group-item-success");
+            // });
+            // lis.on('click',function() {
+            //     search($(this).children('span').get(0).innerHTML);
+            //
+            // });
+
 		})
 		var translate = function() {
 			turnTo(1);
@@ -183,18 +231,58 @@
 		};
 
 		var loadByAsc = function(currentPage) {
-			$.ajax("", {
-				"index": index,
-				"sort": asc
+			$.getJSON("/words/manipulate2", {
+				"totalPage": currentPage,
+				"parameter": 1
 			}, function(e) {
-				$.each(e, function(v, i) {
+                $('.searchRes>ul').empty();
+				$.each(e, function(i, v) {
+
 					var li = $("<li>");
-					li.className = "list-group-item";
-					$('span').innerHTML(e.word).appendTo(li);
-					$('span').innerHTML(e.translate).appendTo(li);
+					li.addClass("list-group-item");
+					var span = $('<span>');
+					span.html(v.spelling);
+					span.appendTo(li);
+					span = $('<span>');
+					span.html(v.definition);
+					span.appendTo(li);
 					li.appendTo($('.searchRes>ul'));
 				});
 			});
 		};
+
+    var loadByTime = function(currentPage) {
+        $.getJSON("/words/manipulate2", {
+            "totalPage": currentPage,
+            "parameter": 0
+        }, function(e) {
+            $('.searchRes>ul').empty();
+            $.each(e, function(i, v) {
+
+                var li = $("<li>");
+                li.addClass("list-group-item");
+                var span = $('<span>');
+                span.html(v.spelling);
+                span.appendTo(li);
+                span = $('<span>');
+                span.html(v.definition);
+                span.appendTo(li);
+                li.appendTo($('.searchRes>ul'));
+            });
+        });
+    };
+
+    var search = function(spelling){
+			$.getJSON("/words/manipulate2", {
+					"spelling": spelling
+				}, function(e) {
+				turnTo(1);
+				$('.detail_head>input').val(spelling);
+				$('.detail_tr>span').html("spelling的翻译");
+				$('.detail_tr>input').val(e.definition);
+				$('.detail_ex>span').html("spelling的例句");
+				$('.detail_ex>textarea').val(e.sentences);
+			});
+		}
 
 })();

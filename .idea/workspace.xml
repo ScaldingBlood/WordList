@@ -1,0 +1,1796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a08aad65-84bb-433e-b004-100c52fba34f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WordList/scripts/words.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WordList/words.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WordList/WEB-INF/classes/com/xd/account/action/LoginAction.class" afterPath="$PROJECT_DIR$/target/WordList/WEB-INF/classes/com/xd/account/action/LoginAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WordList/WEB-INF/classes/com/xd/account/action/RegisterAction.class" afterPath="$PROJECT_DIR$/target/WordList/WEB-INF/classes/com/xd/account/action/RegisterAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WordList/WEB-INF/classes/com/xd/product/action/productAction.class" afterPath="$PROJECT_DIR$/target/WordList/WEB-INF/classes/com/xd/product/action/productAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/xd/account/action/LoginAction.class" afterPath="$PROJECT_DIR$/target/classes/com/xd/account/action/LoginAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/xd/account/action/RegisterAction.class" afterPath="$PROJECT_DIR$/target/classes/com/xd/account/action/RegisterAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/xd/product/action/productAction.class" afterPath="$PROJECT_DIR$/target/classes/com/xd/product/action/productAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Java/com/xd/account/action/loginAction.java" afterPath="$PROJECT_DIR$/src/main/Java/com/xd/account/action/loginAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Java/com/xd/account/action/registerAction.java" afterPath="$PROJECT_DIR$/src/main/Java/com/xd/account/action/registerAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Java/com/xd/common/HibernateDAO.java" afterPath="$PROJECT_DIR$/src/main/Java/com/xd/common/HibernateDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Java/com/xd/product/action/productAction.java" afterPath="$PROJECT_DIR$/src/main/Java/com/xd/product/action/productAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WordList/WEB-INF/classes/account-struts-module.xml" afterPath="$PROJECT_DIR$/target/WordList/WEB-INF/classes/account-struts-module.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WordList/index.html" afterPath="$PROJECT_DIR$/target/WordList/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WordList/scripts/index.js" afterPath="$PROJECT_DIR$/target/WordList/scripts/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/account-struts-module.xml" afterPath="$PROJECT_DIR$/target/classes/account-struts-module.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/register.html" afterPath="$PROJECT_DIR$/web/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scripts/index.js" afterPath="$PROJECT_DIR$/web/scripts/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/styles/index.css" afterPath="$PROJECT_DIR$/web/styles/index.css" />
+    </list>
+    <ignored path="WordList.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="WordList" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="productAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/product/action/productAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-302">
+              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/product/service/productServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+              <folding>
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HibernateDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/common/HibernateDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+              <folding>
+                <marker date="1466693492894" expanded="true" signature="6108:6144" ph="Select count... missingValue" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jdk14Logger.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/org/apache/commons/logging/impl/Jdk14Logger.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding>
+                <element signature="e#1391#1392#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#3;n#div#0;n#div#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/scripts/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-113">
+              <caret line="202" column="13" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/styles/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="201" column="15" selection-start-line="201" selection-start-column="15" selection-end-line="201" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-struts-module.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/product/configuration/product-struts-module.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="71" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionSynchronizationUtils.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.0.0.RELEASE/spring-tx-3.0.0.RELEASE.jar!/org/springframework/transaction/support/TransactionSynchronizationUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/Java/com/xd/product/configuration/Word.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/xd/product/domain/Word.java" />
+        <option value="$PROJECT_DIR$/web/words.html" />
+        <option value="$PROJECT_DIR$/web/scripts/words.js" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/xd/account/configuration/User.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/xd/account/configuration/account-struts-module.xml" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/xd/account/action/LoginAction.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/xd/account/action/RegisterAction.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/xd/account/action/registerAction.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/xd/product/configuration/product-struts-module.xml" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/xd/common/HibernateDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/xd/product/service/productServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/xd/product/action/productAction.java" />
+        <option value="$PROJECT_DIR$/web/styles/index.css" />
+        <option value="$PROJECT_DIR$/web/register.html" />
+        <option value="$PROJECT_DIR$/web/scripts/index.js" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3034483" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/Java/com/xd/product/action/productAction.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/Java/com/xd/product/configuration/product-struts-module.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/Java/com/xd/product/service/productService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/Java/com/xd/product/service/productServiceimpl.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="WordList" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="WordList:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_WordList_4" />
+        <option name="HTTP_PORT" value="8088" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3773" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="WordList:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a08aad65-84bb-433e-b004-100c52fba34f" name="Default" comment="" />
+      <created>1465888139234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1465888139234</updated>
+      <workItem from="1465888140415" duration="11592000" />
+      <workItem from="1465904378119" duration="1676000" />
+      <workItem from="1466041169272" duration="1924000" />
+      <workItem from="1466170732820" duration="15000" />
+      <workItem from="1466231448456" duration="12000" />
+      <workItem from="1466324109231" duration="2619000" />
+      <workItem from="1466600514461" duration="6817000" />
+      <workItem from="1466611153565" duration="17450000" />
+    </task>
+    <task id="LOCAL-00001" summary="The back end front has finished!">
+      <created>1465891036185</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1465891036185</updated>
+    </task>
+    <task id="LOCAL-00002" summary="The account module has combined the front end and the back end now.">
+      <created>1465898439368</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1465898439368</updated>
+    </task>
+    <task id="LOCAL-00003" summary="The account module has combined the front end and the back end now.">
+      <created>1465898468180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1465898468180</updated>
+    </task>
+    <task id="LOCAL-00004" summary="finish the test of user module for the first time">
+      <created>1466608304825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1466608304825</updated>
+    </task>
+    <task id="LOCAL-00005" summary="renew something about register module">
+      <created>1466611729488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1466611729488</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42105000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30639732" sideWeight="0.5030257" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6666667" sideWeight="0.4969743" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27685326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14309764" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30639732" sideWeight="0.5030257" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27685326" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14309764" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="The back end front has finished!" />
+    <MESSAGE value="The account module has combined the front end and the back end now." />
+    <MESSAGE value="finish the test of user module for the first time" />
+    <MESSAGE value="renew something about register module" />
+    <option name="LAST_COMMIT_MESSAGE" value="renew something about register module" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web/scripts/index.js</url>
+          <line>3</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Java/com/xd/product/service/productServiceImpl.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Java/com/xd/product/action/productAction.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/product/action/productAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/product/service/productServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="38" column="138" selection-start-line="38" selection-start-column="138" selection-end-line="38" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.xd:WordList:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.xd:WordList:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="905.7765780730897">com.xd:WordList:1.0-SNAPSHOT</node>
+            <node x="175.5" y="0.0">mysql:mysql-connector-java:jar:5.1.24</node>
+            <node x="191.5" y="70.0">javax.servlet:javax.servlet-api:jar:3.0.1</node>
+            <node x="224.0" y="140.0">com.mchange:c3p0:jar:0.9.5-pre2</node>
+            <node x="447.5" y="140.0">com.mchange:c3p0:jar:0.9.5-pre2/com.mchange:mchange-commons-java:jar:0.2.5</node>
+            <node x="215.5" y="275.7765780730897">com.alibaba:fastjson:jar:1.1.29</node>
+            <node x="203.0" y="380.77657807308964">org.apache.struts:struts2-core:jar:2.3.24</node>
+            <node x="486.0" y="238.28820598006632">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24</node>
+            <node x="757.0" y="204.87541528239194">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm:jar:3.3</node>
+            <node x="726.0" y="274.87541528239194">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3</node>
+            <node x="924.0" y="274.87541528239194">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3</node>
+            <node x="486.5" y="308.2882059800663">org.apache.struts:struts2-core:jar:2.3.24/org.freemarker:freemarker:jar:2.3.22</node>
+            <node x="506.0" y="378.2882059800664">org.apache.struts:struts2-core:jar:2.3.24/ognl:ognl:jar:3.0.6</node>
+            <node x="459.0" y="448.2882059800664">org.apache.struts:struts2-core:jar:2.3.24/commons-fileupload:commons-fileupload:jar:1.3.1</node>
+            <node x="482.5" y="518.2882059800663">org.apache.struts:struts2-core:jar:2.3.24/commons-io:commons-io:jar:2.2</node>
+            <node x="164.0" y="588.2882059800663">org.apache.struts:struts2-convention-plugin:jar:2.3.24</node>
+            <node x="472.0" y="588.2882059800663">org.apache.struts:struts2-convention-plugin:jar:2.3.24/org.apache.commons:commons-lang3:jar:3.2</node>
+            <node x="177.0" y="658.2882059800663">org.apache.struts:struts2-spring-plugin:jar:2.5-BETA2</node>
+            <node x="204.0" y="728.2882059800663">org.springframework:spring-core:jar:3.0.0.RELEASE</node>
+            <node x="486.0" y="694.8754152823919">org.springframework:spring-core:jar:3.0.0.RELEASE/org.springframework:spring-asm:jar:3.0.0.RELEASE</node>
+            <node x="465.5" y="764.8754152823919">org.springframework:spring-core:jar:3.0.0.RELEASE/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="196.0" y="798.2882059800663">org.springframework:spring-context:jar:3.0.0.RELEASE</node>
+            <node x="204.5" y="868.2882059800663">org.springframework:spring-jdbc:jar:3.0.0.RELEASE</node>
+            <node x="493.0" y="868.2882059800663">org.springframework:spring-jdbc:jar:3.0.0.RELEASE/org.springframework:spring-tx:jar:3.0.0.RELEASE</node>
+            <node x="736.5" y="868.2882059800663">org.springframework:spring-jdbc:jar:3.0.0.RELEASE/org.springframework:spring-tx:jar:3.0.0.RELEASE/org.springframework:spring-aop:jar:3.0.0.RELEASE</node>
+            <node x="199.5" y="938.2882059800663">org.springframework:spring-beans:jar:3.0.0.RELEASE</node>
+            <node x="205.0" y="1008.2882059800663">org.springframework:spring-web:jar:3.0.0.RELEASE</node>
+            <node x="486.0" y="1008.2882059800663">org.springframework:spring-web:jar:3.0.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="185.5" y="1080.7765780730897">org.springframework:spring-expression:jar:3.0.0.RELEASE</node>
+            <node x="205.0" y="1150.7765780730897">org.springframework:spring-orm:jar:3.0.0.RELEASE</node>
+            <node x="197.0" y="1220.7765780730897">org.aspectj:aspectjweaver:jar:1.7.2</node>
+            <node x="195.0" y="1290.7765780730897">org.hibernate:hibernate-core:jar:3.6.0.Final</node>
+            <node x="506.0" y="1080.7765780730897">org.hibernate:hibernate-core:jar:3.6.0.Final/antlr:antlr:jar:2.7.6</node>
+            <node x="457.5" y="1150.7765780730897">org.hibernate:hibernate-core:jar:3.6.0.Final/commons-collections:commons-collections:jar:3.1</node>
+            <node x="500.5" y="1220.7765780730897">org.hibernate:hibernate-core:jar:3.6.0.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="424.0" y="1290.7765780730897">org.hibernate:hibernate-core:jar:3.6.0.Final/org.hibernate:hibernate-commons-annotations:jar:3.2.0.Final</node>
+            <node x="457.5" y="1360.7765780730897">org.hibernate:hibernate-core:jar:3.6.0.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.0.Final</node>
+            <node x="512.0" y="1430.7765780730897">org.hibernate:hibernate-core:jar:3.6.0.Final/javax.transaction:jta:jar:1.1</node>
+            <node x="496.0" y="1500.7765780730897">org.hibernate:hibernate-core:jar:3.6.0.Final/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="214.0" y="1360.7765780730897">javassist:javassist:jar:3.11.0.GA</node>
+            <node x="193.5" y="1430.7765780730897">org.springframework:spring-webmvc:jar:3.0.0.RELEASE</node>
+            <node x="212.0" y="1500.7765780730897">org.apache.logging.log4j:log4j-api:jar:2.6.1</node>
+            <node x="208.0" y="1570.7765780730897">org.apache.logging.log4j:log4j-core:jar:2.6.1</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.7.2">
+              <point x="42.0" y="6.75" />
+              <point x="164.0" y="1235.7765780730897" />
+              <point x="-57.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-core:jar:3.0.0.RELEASE" target="org.springframework:spring-core:jar:3.0.0.RELEASE/org.springframework:spring-asm:jar:3.0.0.RELEASE">
+              <point x="50.0" y="-7.5" />
+              <point x="344.0" y="735.7882059800663" />
+              <point x="424.0" y="709.8754152823919" />
+              <point x="-49.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:3.6.0.Final" target="org.hibernate:hibernate-core:jar:3.6.0.Final/commons-collections:commons-collections:jar:3.1">
+              <point x="59.0" y="-8.571428571428669" />
+              <point x="344.0" y="1297.205149501661" />
+              <point x="424.0" y="1165.7765780730897" />
+              <point x="-77.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:3.6.0.Final" target="org.hibernate:hibernate-core:jar:3.6.0.Final/org.hibernate:hibernate-commons-annotations:jar:3.2.0.Final">
+              <point x="59.0" y="-0.0" />
+              <point x="-111.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.24" target="org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24">
+              <point x="51.0" y="-12.0" />
+              <point x="344.0" y="383.77657807308964" />
+              <point x="424.0" y="253.28820598006632" />
+              <point x="-49.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:3.6.0.Final" target="org.hibernate:hibernate-core:jar:3.6.0.Final/javax.transaction:jta:jar:1.1">
+              <point x="59.0" y="8.571428571428669" />
+              <point x="344.0" y="1314.3480066445184" />
+              <point x="424.0" y="1445.7765780730897" />
+              <point x="-23.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24" target="org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm:jar:3.3">
+              <point x="49.0" y="-7.5" />
+              <point x="646.0" y="245.78820598006632" />
+              <point x="726.0" y="219.87541528239194" />
+              <point x="-28.0" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="javassist:javassist:jar:3.11.0.GA">
+              <point x="42.0" y="9.75" />
+              <point x="164.0" y="1375.7765780730897" />
+              <point x="-40.0" y="-0.0" />
+            </edge>
+            <edge source="com.mchange:c3p0:jar:0.9.5-pre2" target="com.mchange:c3p0:jar:0.9.5-pre2/com.mchange:mchange-commons-java:jar:0.2.5">
+              <point x="30.0" y="-0.0" />
+              <point x="-87.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:3.6.0.Final" target="org.hibernate:hibernate-core:jar:3.6.0.Final/org.slf4j:slf4j-api:jar:1.6.1">
+              <point x="59.0" y="12.85714285714289" />
+              <point x="344.0" y="1318.6337209302326" />
+              <point x="424.0" y="1515.7765780730897" />
+              <point x="-39.0" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.1.29">
+              <point x="42.0" y="-9.75" />
+              <point x="164.0" y="290.7765780730897" />
+              <point x="-38.5" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.apache.logging.log4j:log4j-core:jar:2.6.1">
+              <point x="42.0" y="14.25" />
+              <point x="164.0" y="1585.7765780730897" />
+              <point x="-46.0" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:3.0.0.RELEASE">
+              <point x="42.0" y="2.25" />
+              <point x="164.0" y="1023.2882059800663" />
+              <point x="-49.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:3.0.0.RELEASE" target="org.springframework:spring-jdbc:jar:3.0.0.RELEASE/org.springframework:spring-tx:jar:3.0.0.RELEASE">
+              <point x="49.5" y="-0.0" />
+              <point x="-42.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.24" target="org.apache.struts:struts2-core:jar:2.3.24/ognl:ognl:jar:3.0.6">
+              <point x="51.0" y="-0.0" />
+              <point x="424.0" y="393.2882059800664" />
+              <point x="-29.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24" target="org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3">
+              <point x="49.0" y="7.5" />
+              <point x="646.0" y="260.7882059800663" />
+              <point x="-59.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3" target="org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3">
+              <point x="59.0" y="-0.0" />
+              <point x="-42.0" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.24">
+              <point x="42.0" y="-14.25" />
+              <point x="-78.5" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.0.1">
+              <point x="42.0" y="-12.75" />
+              <point x="164.0" y="85.0" />
+              <point x="-62.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-core:jar:3.0.0.RELEASE" target="org.springframework:spring-core:jar:3.0.0.RELEASE/commons-logging:commons-logging:jar:1.1.1">
+              <point x="50.0" y="7.5" />
+              <point x="344.0" y="750.7882059800663" />
+              <point x="424.0" y="779.8754152823919" />
+              <point x="-69.5" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.apache.logging.log4j:log4j-api:jar:2.6.1">
+              <point x="42.0" y="12.75" />
+              <point x="164.0" y="1515.7765780730897" />
+              <point x="-42.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-convention-plugin:jar:2.3.24" target="org.apache.struts:struts2-convention-plugin:jar:2.3.24/org.apache.commons:commons-lang3:jar:3.2">
+              <point x="90.0" y="-0.0" />
+              <point x="-63.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.0.0.RELEASE" target="org.springframework:spring-web:jar:3.0.0.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="49.0" y="-0.0" />
+              <point x="-49.0" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:3.0.0.RELEASE">
+              <point x="42.0" y="11.25" />
+              <point x="164.0" y="1445.7765780730897" />
+              <point x="-60.5" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.apache.struts:struts2-core:jar:2.3.24">
+              <point x="42.0" y="-8.25" />
+              <point x="164.0" y="395.77657807308964" />
+              <point x="-51.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:3.6.0.Final" target="org.hibernate:hibernate-core:jar:3.6.0.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.0.Final">
+              <point x="59.0" y="4.285714285714221" />
+              <point x="344.0" y="1310.062292358804" />
+              <point x="424.0" y="1375.7765780730897" />
+              <point x="-77.5" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:3.0.0.RELEASE">
+              <point x="42.0" y="-0.75" />
+              <point x="164.0" y="883.2882059800663" />
+              <point x="-49.5" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:3.0.0.RELEASE">
+              <point x="42.0" y="-3.75" />
+              <point x="164.0" y="743.2882059800663" />
+              <point x="-50.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:3.6.0.Final" target="org.hibernate:hibernate-core:jar:3.6.0.Final/antlr:antlr:jar:2.7.6">
+              <point x="59.0" y="-12.85714285714289" />
+              <point x="344.0" y="1292.9194352159468" />
+              <point x="424.0" y="1095.7765780730897" />
+              <point x="-29.0" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.hibernate:hibernate-core:jar:3.6.0.Final">
+              <point x="42.0" y="8.25" />
+              <point x="164.0" y="1305.7765780730897" />
+              <point x="-59.0" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.springframework:spring-orm:jar:3.0.0.RELEASE">
+              <point x="42.0" y="5.25" />
+              <point x="164.0" y="1165.7765780730897" />
+              <point x="-49.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.24" target="org.apache.struts:struts2-core:jar:2.3.24/commons-io:commons-io:jar:2.2">
+              <point x="51.0" y="12.0" />
+              <point x="344.0" y="407.77657807308964" />
+              <point x="424.0" y="533.2882059800663" />
+              <point x="-52.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.24" target="org.apache.struts:struts2-core:jar:2.3.24/commons-fileupload:commons-fileupload:jar:1.3.1">
+              <point x="51.0" y="6.0" />
+              <point x="344.0" y="401.77657807308964" />
+              <point x="424.0" y="463.2882059800664" />
+              <point x="-76.0" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.apache.struts:struts2-spring-plugin:jar:2.5-BETA2">
+              <point x="42.0" y="-5.25" />
+              <point x="164.0" y="673.2882059800663" />
+              <point x="-77.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.24" target="org.apache.struts:struts2-core:jar:2.3.24/org.freemarker:freemarker:jar:2.3.22">
+              <point x="51.0" y="-6.0" />
+              <point x="344.0" y="389.77657807308964" />
+              <point x="424.0" y="323.2882059800664" />
+              <point x="-48.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:3.0.0.RELEASE/org.springframework:spring-tx:jar:3.0.0.RELEASE" target="org.springframework:spring-jdbc:jar:3.0.0.RELEASE/org.springframework:spring-tx:jar:3.0.0.RELEASE/org.springframework:spring-aop:jar:3.0.0.RELEASE">
+              <point x="42.0" y="-0.0" />
+              <point x="-48.5" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.apache.struts:struts2-convention-plugin:jar:2.3.24">
+              <point x="42.0" y="-6.75" />
+              <point x="-90.0" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.springframework:spring-beans:jar:3.0.0.RELEASE">
+              <point x="42.0" y="0.75" />
+              <point x="164.0" y="953.2882059800663" />
+              <point x="-54.5" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="com.mchange:c3p0:jar:0.9.5-pre2">
+              <point x="42.0" y="-11.25" />
+              <point x="164.0" y="155.0" />
+              <point x="-30.0" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.springframework:spring-expression:jar:3.0.0.RELEASE">
+              <point x="42.0" y="3.75" />
+              <point x="164.0" y="1095.7765780730897" />
+              <point x="-68.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:3.6.0.Final" target="org.hibernate:hibernate-core:jar:3.6.0.Final/dom4j:dom4j:jar:1.6.1">
+              <point x="59.0" y="-4.285714285714221" />
+              <point x="344.0" y="1301.4908637873755" />
+              <point x="424.0" y="1235.7765780730897" />
+              <point x="-34.5" y="-0.0" />
+            </edge>
+            <edge source="com.xd:WordList:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:3.0.0.RELEASE">
+              <point x="42.0" y="-2.25" />
+              <point x="164.0" y="813.2882059800663" />
+              <point x="-58.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.2318938926588525" x="37.0" y="851.0" />
+          <SelectedNodes>
+            <node>com.xd:WordList:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/action/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/action/RegisterAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/configuration/account-spring-module.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/configuration/account-struts-module.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/configuration/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/configuration/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/service/RegisterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/product/action/productAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/product/service/productServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/product/domain/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/product/configuration/Word.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/words.html" />
+    <entry file="file://$PROJECT_DIR$/web/scripts/words.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/service/RegisterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/configuration/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.xd:WordList:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.xd:WordList:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.xd:WordList:1.0-SNAPSHOT</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.24</node>
+            <node x="" y="">javax.servlet:javax.servlet-api:jar:3.0.1</node>
+            <node x="" y="">com.mchange:c3p0:jar:0.9.5-pre2</node>
+            <node x="" y="">com.mchange:c3p0:jar:0.9.5-pre2/com.mchange:mchange-commons-java:jar:0.2.5</node>
+            <node x="" y="">com.alibaba:fastjson:jar:1.1.29</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.apache.struts.xwork:xwork-core:jar:2.3.24/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/org.freemarker:freemarker:jar:2.3.22</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/ognl:ognl:jar:3.0.6</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/commons-fileupload:commons-fileupload:jar:1.3.1</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.24/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">org.apache.struts:struts2-convention-plugin:jar:2.3.24</node>
+            <node x="" y="">org.apache.struts:struts2-convention-plugin:jar:2.3.24/org.apache.commons:commons-lang3:jar:3.2</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.5-BETA2</node>
+            <node x="" y="">org.springframework:spring-core:jar:3.0.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:3.0.0.RELEASE/org.springframework:spring-asm:jar:3.0.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:3.0.0.RELEASE/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">org.springframework:spring-context:jar:3.0.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.0.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.0.0.RELEASE/org.springframework:spring-tx:jar:3.0.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.0.0.RELEASE/org.springframework:spring-tx:jar:3.0.0.RELEASE/org.springframework:spring-aop:jar:3.0.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-beans:jar:3.0.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.0.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.0.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-expression:jar:3.0.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:3.0.0.RELEASE</node>
+            <node x="" y="">org.aspectj:aspectjweaver:jar:1.7.2</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.0.Final/antlr:antlr:jar:2.7.6</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.0.Final/commons-collections:commons-collections:jar:3.1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.0.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.0.Final/org.hibernate:hibernate-commons-annotations:jar:3.2.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.0.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.0.Final/javax.transaction:jta:jar:1.1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.0.Final/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">javassist:javassist:jar:3.11.0.GA</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.0.0.RELEASE</node>
+            <node x="" y="">org.apache.logging.log4j:log4j-api:jar:2.6.1</node>
+            <node x="" y="">org.apache.logging.log4j:log4j-core:jar:2.6.1</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7318938926588526" x="277.0" y="979.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/service/RegisterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/configuration/account-spring-module.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/configuration/account-struts-module.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/service/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/action/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/account/action/RegisterAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.24/xwork-core-2.3.24.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.0.6/ognl-3.0.6.jar!/ognl/ASTMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.24/xwork-core-2.3.24.jar!/com/opensymphony/xwork2/ognl/accessor/XWorkMethodAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.0.6/ognl-3.0.6.jar!/ognl/OgnlRuntime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="851" column="0" selection-start-line="851" selection-start-column="0" selection-end-line="851" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/common/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#210#211#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.0.RELEASE/spring-orm-3.0.0.RELEASE.jar!/org/springframework/orm/hibernate3/support/HibernateDaoSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#1550#1551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.0.RELEASE/spring-orm-3.0.0.RELEASE.jar!/org/springframework/orm/hibernate3/HibernateAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="e#1960#1961#0" expanded="true" />
+            <element signature="e#2002#2003#0" expanded="true" />
+            <element signature="e#3108#3109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.0.RELEASE/spring-core-3.0.0.RELEASE.jar!/org/springframework/util/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.0.0.RELEASE/spring-tx-3.0.0.RELEASE.jar!/org/springframework/transaction/support/TransactionSynchronizationUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.0.0.RELEASE/spring-tx-3.0.0.RELEASE.jar!/org/springframework/transaction/support/TransactionSynchronizationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.0.RELEASE/spring-orm-3.0.0.RELEASE.jar!/org/springframework/orm/hibernate3/SessionFactoryUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.0.RELEASE/spring-orm-3.0.0.RELEASE.jar!/org/springframework/orm/hibernate3/HibernateTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+          <folding>
+            <element signature="e#2394#2395#0" expanded="true" />
+            <element signature="e#2433#2434#0" expanded="true" />
+            <element signature="e#2612#2613#0" expanded="true" />
+            <element signature="e#2659#2660#0" expanded="true" />
+            <element signature="e#4590#4591#0" expanded="true" />
+            <element signature="e#4648#4649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/common/HibernateDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding>
+            <marker date="1466693492894" expanded="true" signature="6108:6144" ph="Select count... missingValue" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/product/service/productService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/product/configuration/product-struts-module.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="71" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/product/service/productServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding>
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/xd/product/action/productAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/org/apache/commons/logging/impl/Jdk14Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#1391#1392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="102" column="132" selection-start-line="102" selection-start-column="132" selection-end-line="102" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="201" column="15" selection-start-line="201" selection-start-column="15" selection-end-line="201" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="202" column="13" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#3;n#div#0;n#div#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>WordList:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3034483" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (WordList)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3034483" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3034483" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Struts 2|Web|WordList</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3034483" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3034483" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

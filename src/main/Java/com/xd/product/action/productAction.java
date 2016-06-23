@@ -60,9 +60,15 @@ public class productAction extends BaseAction{
     public void search()
     {
         HttpServletRequest request = ServletActionContext.getRequest();
-        int parameter = Integer.parseInt(request.getParameter("parameter"));
+        String ps = request.getParameter("parameter");
+        int parameter = 0;
+        if(ps !=null)
+            parameter= Integer.parseInt(ps);
         String spelling = request.getParameter("spelling");
-        int page = Integer.parseInt(request.getParameter("totalPage"));
+        String ts = request.getParameter("totalPage");
+        int page = 0;
+        if(ts != null)
+            page= Integer.parseInt(ts);
         HttpSession session = request.getSession();
         UUID id = UUID.fromString((String) session.getAttribute("id"));
         JSONArray result = new JSONArray();
@@ -71,9 +77,9 @@ public class productAction extends BaseAction{
             HttpServletResponse response = ServletActionContext.getResponse();
             response.setCharacterEncoding("UTF-8");
             response.setContentType("application/json; charset=utf-8");
-            String sql = "SELECT SPELLING,DEFINITION,SENTENCES,DATE FROM WORDLIST.WORD WHERE ID = '"+id.toString()+"' SPELLING = '"+spelling+"'";
+            String sql = "SELECT SPELLING,DEFINITION,SENTENCES,DATE FROM WORDLIST.WORD WHERE ID = '"+id.toString()+"'AND SPELLING = '"+spelling+"'";
             List xcz = this.getService().find(sql);
-            if(xcz ==null)
+            if(xcz ==null&&xcz.isEmpty())
             {
                 return;
             }
@@ -99,7 +105,7 @@ public class productAction extends BaseAction{
         else
         {
             try {
-                List xcz = this.getService().FindByParameter(id,parameter,page);
+                List xcz = this.getService().FindByParameter(id,parameter,page-1);
                 if (xcz != null && xcz.size() > 0) {
                     for (int i = 0; i < xcz.size(); i++) {
                         Object[] obj = (Object[]) xcz.get(i);
@@ -155,10 +161,11 @@ public class productAction extends BaseAction{
         String sql = "SELECT SPELLING FROM WORDLIST.WORD WHERE ID = '"+id.toString()+"'";
         int page = this.getService().count(sql);
         JSONObject a = new JSONObject();
-        a.put("totalPage",page);
+        a.put("totalPage",(page/10)+1);
         try
         {
             response.getWriter().append(a.toJSONString());
+            response.getWriter().flush();
             response.getWriter().close();
         }catch (IOException e)
         {

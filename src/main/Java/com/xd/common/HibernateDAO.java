@@ -187,7 +187,7 @@ public class HibernateDAO extends HibernateDaoSupport {
             public Object doInHibernate(Session session) throws HibernateException, SQLException {
                 Connection conn = getConnection();
                 Statement stmt = conn.createStatement();
-                String _sql = "Select count(1) from (" + sql + ")";
+                String _sql = "Select count(1) from (" + sql + ") a";
                 ResultSet resultSet = (ResultSet) stmt.executeQuery(_sql);
                 Integer count = 0;
                 if (resultSet.next()) {

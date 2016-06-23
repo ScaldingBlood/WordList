@@ -150,7 +150,6 @@
 	height: 700px;
 	/*background-color: #E5E5E5;*/
 	z-index: 55;
-	perspective: 500;
 	border-top: 1px solid #F2DEDE;
 	overflow: hidden;
 }
@@ -244,9 +243,14 @@
 	border-bottom: 1px #CCCCCC solid;
 }
 
+
 .detail_head>.en {
 	font: normal 16px arial, sans-serif;
 	color: #222;
+	border: 0px;
+	outline: medium;
+	display: block;
+	/*border-bottom: 1px solid #777;*/
 }
 
 .detail_tr {
@@ -363,7 +367,7 @@
 }
 
 .searchRes>ul>li>span {
-	width: 50px;
+	width: 100px;
 	margin-right: 90px;
 }
 

@@ -35,7 +35,7 @@ public class RegisterAction {
         this.registerService = registerService;
     }
 
-    public void register() {
+    public String register() {
         HttpServletRequest request = ServletActionContext.getRequest();
         HttpServletResponse response = ServletActionContext.getResponse();
         String name = request.getParameter("username");
@@ -45,10 +45,10 @@ public class RegisterAction {
         user = new User(id, name, password);
         if(registerService.addUser(user)) {
             request.getSession().setAttribute("id", user.getId());
-            response.addCookie(new Cookie("result", "true"));
+            return SUCCESS;
         }
         else {
-            response.addCookie(new Cookie("result", "true"));
+            return ERROR;
         }
     }
 }

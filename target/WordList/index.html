@@ -4,8 +4,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>WordList</title>
-		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
-		<link rel="stylesheet" href="styles/index.css" />
+		<link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="/styles/index.css" />
 	</head>
 
 	<body>
@@ -89,14 +89,14 @@
 			<div class="content1">
 				<div class="detail">
 					<div class="detail_head">
-						<span class="en">gradual</span>
+						<input  class="en" type="text" value="" />
 					</div>
 					<div class="detail_tr">
-						<span>gradual&nbsp;的翻译</span>
+						<span>&nbsp;翻译</span>
 						<input type="text" value="逐渐" autofocus/>
 					</div>
 					<div class="detail_ex">
-						<span>gradual&nbsp;的例句</span>
+						<span>&nbsp;例句</span>
 						<textarea></textarea>
 					</div>
 					<button id="btnCollect" class="btn btn-success btn-sm"> Collect</button>
@@ -126,7 +126,7 @@
 
 				<div class="divUser row">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-5">
 							<div class="input-group input-group-sm">
 								<input type="text" id="searchContent"class="form-control" placeholder="Search for...">
 								<span class="input-group-btn">
@@ -142,35 +142,17 @@
 						<div class="col-md-3">
 							<button class="btn btn-default btn-sm" id="sortTime" type="button">按插入时间排序</button>
 						</div>
+						<div class="col-md-1">
+							<button style="margin-left: -20px;" id="btnInsert" class="btn btn-default btn-sm">插入</button>
+						</div>
 					</div>
 
 					<div id="" class="searchRes active">
 						<ul class="list-group">
-							<li class="list-group-item  ">
-								<span>gradual</span>
-								<span>逐渐</span>
-							</li>
-							<li class="list-group-item  ">
-								<span>gradual</span>
-								<span>逐渐</span>
-							</li>
-							<li class="list-group-item  ">
-								<span>gradual</span>
-								<span>逐渐</span>
-							</li>
-							<li class="list-group-item  ">
-								<span>gradual</span>
-								<span>逐渐</span>
-							</li>
-
-							<li class="list-group-item  ">
-								<span>gradual</span>
-								<span>逐渐</span>
-							</li>
 
 						</ul>
 						<nav class="page">
-							<ul class="pagination">
+							<!--<ul class="pagination">
 								<li>
 									<a href="#" aria-label="Previous">
 										<span aria-hidden="true">&laquo;</span>
@@ -186,10 +168,12 @@
 										<span aria-hidden="true">&raquo;</span>
 									</a>
 								</li>
-							</ul>
+							</ul>-->
 						</nav>
 
 					</div>
+
+					
 				</div>
 
 			</div>
@@ -202,8 +186,9 @@
 			<a href="javascript:;" class="next"></a>
 		</div>
 	</body>
-	<script src="lib/jquery-1.7.1.js"></script>
-	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
-	<script src="scripts/index.js"></script>
+	<script src="/lib/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="/lib/bootstrap/js/bootstrap.js"></script>
+	<script src="/scripts/pageHelper.js"></script>
+	<script src="/scripts/index.js"></script>
 
 </html>
