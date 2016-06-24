@@ -11,5 +11,7 @@
         </action>
         <action name="manipulate3" class="productAction" method="update">
         </action>
+        <action name="manipulate4" class="productAction" method="pagecount">
+        </action>
     </package>
 </struts>

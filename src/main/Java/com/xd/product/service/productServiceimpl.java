@@ -36,7 +36,7 @@ public class productServiceImpl extends BaseService implements productService{
             }
             else if(parameter == 1)
             {
-                String sql2 = "SELECT SPELLING,DEFINITION,SENTENCES,DATE FROM WORDLIST.WORDS WHERE ID = '"+id.toString()+"' ORDER BY SPELLING LIMIT "+page+",10";
+                String sql2 = "SELECT SPELLING,DEFINITION,SENTENCES,DATE FROM WORDLIST.WORD WHERE ID = '"+id.toString()+"' ORDER BY SPELLING LIMIT "+page+",10";
                 return find(sql2);
             }
             else
