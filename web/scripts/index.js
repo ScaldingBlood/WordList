@@ -10,20 +10,20 @@
 
 			var signIn = $("#signIn");
 
-			// ç™»å½•
+			// µÇÂ¼
 			signIn.click(function() {
 				$("#modal").css("display", "block");
 				$("#loginDialog").fadeIn(150);
 
 			});
-			// ç™»å½•å…³é—­
+			// µÇÂ¼¹Ø±Õ
 			$("#closeDig").click(function() {
 				$("#modal").css("display", "none");
 				$("#loginDialog").fadeOut(150);
 				return false;
 			});
 
-			// ajax ç™»å½•
+			// ajax µÇÂ¼
 
 			$('#btnSignin').click(function() {
 				var username = $('#username').val();
@@ -31,7 +31,7 @@
 				var remeber = $('#password').get(0).checked;
 
 				if (!username || !password) {
-					$('.status').html("è¯·è¾“å…¥ç”¨æˆ·åæˆ–å¯†ç ");
+					$('.status').html("ÇëÊäÈëÓÃ»§Ãû»òÃÜÂë");
 					return false;
 				}
 
@@ -44,7 +44,7 @@
 				$.post("/account/login.action", json, function(data) {
 					data = $.parseJSON(data);
 					if (!data) {
-						$('.status').html("ç”¨æˆ·åæˆ–å¯†ç é”™è¯¯");
+						$('.status').html("ÓÃ»§Ãû»òÃÜÂë´íÎó");
 						return false;
 					}
 					if (data.name) {
@@ -55,7 +55,7 @@
                         $('.content2').css('opacity', "1");
 						$('#closeDig').trigger("click");
 					} else {
-						$('.status').html("ç”¨æˆ·åæˆ–å¯†ç é”™è¯¯");
+						$('.status').html("ÓÃ»§Ãû»òÃÜÂë´íÎó");
 					}
 				});
 
@@ -76,7 +76,7 @@
 
 
 
-			// æŽ’åºæŸ¥æ‰¾
+			// ÅÅÐò²éÕÒ
 
 			$('#sortAsc').click(function() {
 				var totalPage = -1;
@@ -117,7 +117,7 @@
 
 
 
-			// æ”¶è—å’Œä¿®æ”¹
+			// ÊÕ²ØºÍÐÞ¸Ä
 			$('#btnCollect').click(function() {
                var spelling =  $('.detail_head>input').val();
                 var definition = $('.detail_tr>input').val();
@@ -143,7 +143,7 @@
 
                 })
             })
-			// å·¦å³ç‚¹å‡»äº‹ä»¶
+			// ×óÓÒµã»÷ÊÂ¼þ
 			var flag = true;
 			$('.arrow>.prev').click(function() {
 				if (flag) {
@@ -178,16 +178,16 @@
 			$('#btnInsert').click(function () {
 				turnTo(1);
 				$('.detail_head').val("");
-				$('.detail_tr>span').html("ç¿»è¯‘");
+				$('.detail_tr>span').html("·­Òë");
 				$('.detail_tr>input').val("");
-				$('.detail_ex>span').html("ä¾‹å¥");
+				$('.detail_ex>span').html("Àý¾ä");
 				$('.detail_ex>textarea').val("");
 
 				
 			});
             var lis = $(".searchRes>ul li");
-            // åˆ—è¡¨
-
+            // ÁÐ±í
+/*
             for(var k  = 0;k<lis.length;k++){
 
                 lis[k].hover = function () {
@@ -200,19 +200,18 @@
                     // $(lis[k]).addClass("list-group-item-success").siblings().removeClass("list-group-item-success");
                     search($(lis[k]).children('span').get(0).innerHTML);
                 }
-            }
-            // lis.on('hover',function() {
-            //
-            //     $(this).addClass("list-group-item-success").siblings().removeClass("list-group-item-success");
-            // });
-            // lis.on('blur',function() {
-            //     $(this).removeClass("list-group-item-success");
-            // });
-            // lis.on('click',function() {
-            //     search($(this).children('span').get(0).innerHTML);
-            //
-            // });
-
+            }*/
+			$(document).on("hover",lis,function(){
+				$(this).addClass("list-group-item-success").siblings().removeClass("list-group-item-success");
+			});
+            l
+			$(document).on("blur",lis,function(){
+				 $(this).removeClass("list-group-item-success");
+			});
+            $(document).on("click",lis,function(){
+				 search($(this).children('span').get(0).innerHTML);
+			});
+            
 		})
 		var translate = function() {
 			turnTo(1);
@@ -278,9 +277,9 @@
 				}, function(e) {
 				turnTo(1);
 				$('.detail_head>input').val(spelling);
-				$('.detail_tr>span').html("spellingçš„ç¿»è¯‘");
+				$('.detail_tr>span').html("spellingµÄ·­Òë");
 				$('.detail_tr>input').val(e.definition);
-				$('.detail_ex>span').html("spellingçš„ä¾‹å¥");
+				$('.detail_ex>span').html("spellingµÄÀý¾ä");
 				$('.detail_ex>textarea').val(e.sentences);
 			});
 		}
